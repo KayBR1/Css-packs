@@ -2,4 +2,21 @@ label {
   font-family: 'Arial', 'Verdana', 'Comic Sans MS', 'Tahoma', sans-serif;
   color: rgba(0, 0, 0, 0.5);
   display: block;
+  transition: 0.5s;
+}
+
+label:hover {
+  color: rgba(0, 0, 0, 1);
+}
+
+input {
+  display: block;
+  border-color: rgba(0, 0, 0, 0.5);
+  background: white;
+  border-radius: 100px;
+  transition: 0.5s;
+}
+
+input:hover {
+  border-color: rgba(0, 0, 0, 1);
 }
