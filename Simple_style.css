@@ -1,11 +1,11 @@
 html {
-  font-family: 'arial','verdana','comic sans SM','tahoma', sans-serif;
+  font-family: 'Arial', 'Verdana', 'Comic Sans MS', 'Tahoma', sans-serif;
 }
 
 label {
   color: rgba(0, 0, 0, 0.5);
   display: block;
-  size: 5px;
+  font-size: 16px; /* Substituindo size por font-size */
   transition: 0.5s;
 }
 
@@ -26,3 +26,11 @@ input:hover {
   border-color: rgba(0, 0, 0, 1);
 }
 
+p {
+  font-size: 1em;
+  font-color: black;
+}
+
+span:hover {
+  font-size: 2em;
+}
